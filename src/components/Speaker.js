@@ -36,7 +36,7 @@ const Speaker = ({
         </span>
       </div>
       <div className='extra content'>
-        <span href='#'>
+        <span href='h'>
           <i className='bullhorn icon'></i>
           {sessions.length}
         </span>
