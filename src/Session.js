@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react'
 
-function Session(sessions) {
+function Session ({sessions}) {
   return (
-    <div className="session">
+    <div className='session'>
       {sessions.map((session, index) => {
-        return (
-          <div>
-            <Session {...session} key={index} />
-          </div>
-        );
-      })}
+         return (
+           <div>
+             <Session {...session} key={index} />
+           </div>
+         )
+       })}
     </div>
-  );
+  )
 }
 
-export default Session;
+export default Session
